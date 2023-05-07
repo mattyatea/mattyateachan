@@ -5,7 +5,6 @@ import {Notify} from "./lib/notify.js";
 
 if (boot){
     Notify();
-    console.log("\x1b[32m[Info] Create Note! \n[Info] NoteId:", await CreateRandomNote());
     setInterval(() => {
         CreateRandomNote();
     }, timeout);
