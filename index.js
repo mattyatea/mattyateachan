@@ -1,5 +1,3 @@
-import WebSocket from "ws";
-global.WebSocket = WebSocket;
 import {Misskey_Token, Misskey_Instance, api} from "./init.js";
 import {CreateRandomNote} from "./lib/random_note.js";
 import {Notify} from "./lib/notify.js";
