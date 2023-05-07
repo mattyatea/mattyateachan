@@ -1,0 +1,26 @@
+{
+  "name": "mattyateachan-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "autobind-decorator": "^2.4.0",
+    "dotenv": "^16.0.3",
+    "events": "^3.3.0",
+    "misskey-js": "^0.0.15",
+    "nodemon": "^2.0.22",
+    "reconnecting-websocket": "^4.4.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
