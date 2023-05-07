@@ -2,7 +2,7 @@ import * as dotenv from "dotenv";
 import * as Misskey from "misskey-js";
 import WebSocket from "ws";
 dotenv.config();
-export const emotion_1 =["つらい","辛い","苦","くるしい","泣","test"];//つらみ
+export const emotion_1 =["つらい","辛い","苦","くるしい","泣"];//つらみ
 export const emotion_2 =["てんさい","天才","褒めて"];//ほめられたい
 export const emotion_1_reply =["大丈夫ですか...?","よしよし...","私がぎゅーしてあげますよ..?"];
 export const emotion_2_reply =["すごいです！！","さすがです！！","天才ですね！！","すごい！！"];
